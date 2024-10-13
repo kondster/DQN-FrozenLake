@@ -74,7 +74,7 @@ In this project, we:
 
 1\. **Clone the repository**:
 
-   ```bash
+   ```
 
    git clone https://github.com/your_username/your_repository_name.git
 
@@ -82,7 +82,7 @@ In this project, we:
 
 2\. **Navigate to the project directory**:
 
-   ```bash
+   ```
 
    cd your_repository_name
 
@@ -90,7 +90,7 @@ In this project, we:
 
 3\. **(Optional) Create a virtual environment**:
 
-   ```bash
+   ```
 
    python -m venv venv
 
@@ -100,7 +100,7 @@ In this project, we:
 
 4\. **Install the required packages**:
 
-   ```bash
+   ```
 
    pip install -r requirements.txt
 
@@ -110,7 +110,7 @@ In this project, we:
 
 1\. **Ensure the script is executable**:
 
-   ```bash
+   ```
 
    chmod +x dqn_frozenlake.py
 
@@ -118,7 +118,7 @@ In this project, we:
 
 2\. **Run the script**:
 
-   ```bash
+   ```
 
    python dqn_frozenlake.py
 

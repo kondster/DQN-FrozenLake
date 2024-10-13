@@ -1,5 +1,3 @@
-```markdown
-
 # Deep Reinforcement Learning with DQN on Custom FrozenLake Environments
 
 ## Introduction
@@ -22,7 +20,7 @@ In this project, we:
 
   - **Case 2**: A 10x10 grid with 40 holes.
 
-  - Both cases use specific start and goal positions derived from a unique identifier (e.g., Panther ID: `002802988` with start `(2, 9)` and goal `(8, 8)`).
+  - Both cases use specific start and goal positions derived from a unique identifier (with start `(2, 9)` and goal `(8, 8)` for this instance).
 
 - **Implement a DQN agent**:
 
@@ -248,7 +246,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Customization
 
-- **Start and Goal Positions**: The start and goal positions are based on a unique identifier (e.g., Panther ID). You can modify these positions in the code to customize the environments.
+- **Start and Goal Positions**: The start and goal positions are based on a unique identifier which is non-relevant. You can modify these positions in the code to customize the environments.
 
 - **Hyperparameters**: The hyperparameters used for training can be adjusted in the script to experiment with different learning behaviors.
 

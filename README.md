@@ -230,7 +230,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Customization
 
-- **Start and Goal Positions**: The start and goal positions are based on a unique identifier (e.g., Panther ID). You can modify these positions in the code to customize the environments.
+- **Start and Goal Positions**: The start and goal positions are randomly generated. You can modify these positions in the code to customize the environments.
 
 - **Hyperparameters**: The hyperparameters used for training can be adjusted in the script to experiment with different learning behaviors.
 

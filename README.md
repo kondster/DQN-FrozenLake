@@ -20,7 +20,7 @@ In this project, we:
 
   - **Case 2**: A 10x10 grid with 40 holes.
 
-  - Both cases use specific start and goal positions derived from a unique identifier (e.g., Panther ID: `002802988` with start `(2, 9)` and goal `(8, 8)`).
+  - Both cases use specific start and goal positions derived from a unique identifier (generated randomly with positions: start `(2, 9)` and goal `(8, 8)`).
 
 - **Implement a DQN agent**:
 
@@ -224,15 +224,11 @@ This project successfully demonstrates how a DQN agent can be trained to solve c
 
 For any questions or feedback, please contact:
 
-- **Name**: [Your Name]
+- **Name**: [Prashanth konda]
 
-- **Email**: [your_email@example.com]
+- **Email**: [pkonda1@gsu.edu]
 
-- **GitHub**: [your_username](https://github.com/your_username)
-
----
-
-**Note**: Replace placeholders like `[Your Name]`, `[your_email@example.com]`, and `your_username` with your actual details.
+- **GitHub**: [your_username](https://github.com/kondster)
 
 ---
 

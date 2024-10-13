@@ -224,15 +224,12 @@ This project successfully demonstrates how a DQN agent can be trained to solve c
 
 For any questions or feedback, please contact:
 
-- **Name**: [Your Name]
+- **Name**: [Prashanth Konda]
 
-- **Email**: [your_email@example.com]
+- **Email**: [pkonda1@gsu.edu]
 
-- **GitHub**: [your_username](https://github.com/your_username)
+- **GitHub**: [kondster](https://github.com/kondster)
 
----
-
-**Note**: Replace placeholders like `[Your Name]`, `[your_email@example.com]`, and `your_username` with your actual details.
 
 ---
 

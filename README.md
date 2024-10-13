@@ -1,3 +1,5 @@
+```markdown
+
 # Deep Reinforcement Learning with DQN on Custom FrozenLake Environments
 
 ## Introduction
@@ -20,7 +22,7 @@ In this project, we:
 
   - **Case 2**: A 10x10 grid with 40 holes.
 
-  - Both cases use specific start and goal positions derived from a unique identifier (generated randomly with positions: start (2, 9) and goal (8, 8)).
+  - Both cases use specific start and goal positions derived from a unique identifier (e.g., Panther ID: `002802988` with start `(2, 9)` and goal `(8, 8)`).
 
 - **Implement a DQN agent**:
 
@@ -36,7 +38,7 @@ In this project, we:
 
 - **Modify environment dynamics**:
 
-  - Set is_slippery=False to create deterministic environments.
+  - Set `is_slippery=False` to create deterministic environments.
 
 - **Train and evaluate the agent** on both cases.
 
@@ -44,15 +46,15 @@ In this project, we:
 
 ## Files Included
 
-- **dqn_frozenlake.py**: The main Python script containing the full implementation.
+- **`dqn_frozenlake.py`**: The main Python script containing the full implementation.
 
-- **Konda-model-case1.pt**: Saved PyTorch model parameters for the agent trained on Case 1.
+- **`Konda-model-case1.pt`**: Saved PyTorch model parameters for the agent trained on Case 1.
 
-- **Konda-model-case2.pt**: Saved PyTorch model parameters for the agent trained on Case 2.
+- **`Konda-model-case2.pt`**: Saved PyTorch model parameters for the agent trained on Case 2.
 
-- **README.md**: This file, providing an overview of the project.
+- **`README.md`**: This file, providing an overview of the project.
 
-- **requirements.txt**: A list of required Python packages and their versions.
+- **`requirements.txt`**: A list of required Python packages and their versions.
 
 ## Getting Started
 
@@ -60,57 +62,69 @@ In this project, we:
 
 - **Python 3.x**
 
-- Required Python packages (listed in requirements.txt):
+- Required Python packages (listed in `requirements.txt`):
 
-  - gym
+  - `gym`
 
-  - torch
+  - `torch`
 
-  - numpy
+  - `numpy`
 
-  - matplotlib
+  - `matplotlib`
 
 ### Installation
 
 1\. **Clone the repository**:
 
+   ```bash
+
    git clone https://github.com/your_username/your_repository_name.git
 
-   
+   ```
 
 2\. **Navigate to the project directory**:
 
+   ```bash
+
    cd your_repository_name
 
-   
+   ```
 
 3\. **(Optional) Create a virtual environment**:
+
+   ```bash
 
    python -m venv venv
 
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-   
+   ```
 
 4\. **Install the required packages**:
 
+   ```bash
+
    pip install -r requirements.txt
 
-   
+   ```
 
 ### Running the Code
 
 1\. **Ensure the script is executable**:
 
+   ```bash
+
    chmod +x dqn_frozenlake.py
 
-   
+   ```
 
 2\. **Run the script**:
 
+   ```bash
+
    python dqn_frozenlake.py
 
-   
+   ```
 
    - The script will sequentially train and test the agent on both Case 1 and Case 2.
 
@@ -120,13 +134,13 @@ In this project, we:
 
 3\. **View Results**:
 
-   - The trained models Konda-model-case1.pt and Konda-model-case2.pt will be saved in the project directory.
+   - The trained models `Konda-model-case1.pt` and `Konda-model-case2.pt` will be saved in the project directory.
 
    - Plots of rewards and losses will help visualize the agent's learning progress.
 
 ## Project Structure
 
-- **dqn_frozenlake.py**: Contains the following sections:
+- **`dqn_frozenlake.py`**: Contains the following sections:
 
   - **Imports and Setup**: Importing libraries and setting up the device.
 
@@ -212,11 +226,15 @@ This project successfully demonstrates how a DQN agent can be trained to solve c
 
 For any questions or feedback, please contact:
 
-- **Name**: [Prashanth konda]
+- **Name**: [Your Name]
 
-- **Email**: [pkonda1@gsu.edu]
+- **Email**: [your_email@example.com]
 
-- **GitHub**: [your_username](https://github.com/kondster)
+- **GitHub**: [your_username](https://github.com/your_username)
+
+---
+
+**Note**: Replace placeholders like `[Your Name]`, `[your_email@example.com]`, and `your_username` with your actual details.
 
 ---
 
@@ -230,7 +248,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Customization
 
-- **Start and Goal Positions**: The start and goal positions are randomly generated. You can modify these positions in the code to customize the environments.
+- **Start and Goal Positions**: The start and goal positions are based on a unique identifier (e.g., Panther ID). You can modify these positions in the code to customize the environments.
 
 - **Hyperparameters**: The hyperparameters used for training can be adjusted in the script to experiment with different learning behaviors.
 
@@ -242,7 +260,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Advanced Algorithms**: Explore other DRL algorithms like Double DQN, Dueling DQN, or Policy Gradient methods.
 
-- **Slippery Environment**: Introduce stochasticity by setting is_slippery=True to make the environment more challenging.
+- **Slippery Environment**: Introduce stochasticity by setting `is_slippery=True` to make the environment more challenging.
 
 ### References
 
@@ -256,4 +274,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Disclaimer**: This project is for educational purposes. The performance of the agent may vary based on the computational resources and randomness in environment generation.
 
-
+```

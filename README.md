@@ -52,8 +52,6 @@ In this project, we:
 
 - **`README.md`**: This file, providing an overview of the project.
 
-- **`requirements.txt`**: A list of required Python packages and their versions.
-
 ## Getting Started
 
 ### Prerequisites
